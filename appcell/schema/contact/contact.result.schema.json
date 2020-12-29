@@ -1,0 +1,559 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "title": "The Root Schema",
+  "required": [
+    "registrant",
+    "admin",
+    "tech",
+    "billing"
+  ],
+  "properties": {
+    "registrant": {
+      "$id": "#/properties/registrant",
+      "type": "object",
+      "title": "The Registrant Schema",
+      "required": [
+        "firstname",
+        "lastname",
+        "companyname",
+        "email",
+        "address1",
+        "address2",
+        "city",
+        "state",
+        "postcode",
+        "country",
+        "phonenumber",
+        "handle"
+      ],
+      "properties": {
+        "firstname": {
+          "$id": "#/properties/registrant/properties/firstname",
+          "type": "string",
+          "title": "The Firstname Schema",
+          "default": "",
+          "examples": [
+            "Pavel"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "lastname": {
+          "$id": "#/properties/registrant/properties/lastname",
+          "type": "string",
+          "title": "The Lastname Schema",
+          "default": "",
+          "examples": [
+            "Nikolov"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "companyname": {
+          "$id": "#/properties/registrant/properties/companyname",
+          "type": "object",
+          "title": "The Companyname Schema"
+        },
+        "email": {
+          "$id": "#/properties/registrant/properties/email",
+          "type": "string",
+          "title": "The Email Schema",
+          "default": "",
+          "examples": [
+            "pavkatar@gmail.com"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "address1": {
+          "$id": "#/properties/registrant/properties/address1",
+          "type": "string",
+          "title": "The Address1 Schema",
+          "default": "",
+          "examples": [
+            "Sofia"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "address2": {
+          "$id": "#/properties/registrant/properties/address2",
+          "type": "string",
+          "title": "The Address2 Schema",
+          "default": "",
+          "examples": [
+            "disabled"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "city": {
+          "$id": "#/properties/registrant/properties/city",
+          "type": "string",
+          "title": "The City Schema",
+          "default": "",
+          "examples": [
+            "Sofia"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "state": {
+          "$id": "#/properties/registrant/properties/state",
+          "type": "string",
+          "title": "The State Schema",
+          "default": "",
+          "examples": [
+            "BG"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "postcode": {
+          "$id": "#/properties/registrant/properties/postcode",
+          "type": "string",
+          "title": "The Postcode Schema",
+          "default": "",
+          "examples": [
+            "1000"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "country": {
+          "$id": "#/properties/registrant/properties/country",
+          "type": "string",
+          "title": "The Country Schema",
+          "default": "",
+          "examples": [
+            "BG"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "phonenumber": {
+          "$id": "#/properties/registrant/properties/phonenumber",
+          "type": "string",
+          "title": "The Phonenumber Schema",
+          "default": "",
+          "examples": [
+            "+359-291-876533499"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "handle": {
+          "$id": "#/properties/registrant/properties/handle",
+          "type": "string",
+          "title": "The Handle Schema",
+          "default": "",
+          "examples": [
+            "31342595"
+          ],
+          "pattern": "^(.*)$"
+        }
+      }
+    },
+    "admin": {
+      "$id": "#/properties/admin",
+      "type": "object",
+      "title": "The Admin Schema",
+      "required": [
+        "firstname",
+        "lastname",
+        "companyname",
+        "email",
+        "address1",
+        "address2",
+        "city",
+        "state",
+        "postcode",
+        "country",
+        "phonenumber",
+        "handle"
+      ],
+      "properties": {
+        "firstname": {
+          "$id": "#/properties/admin/properties/firstname",
+          "type": "string",
+          "title": "The Firstname Schema",
+          "default": "",
+          "examples": [
+            "Pavel"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "lastname": {
+          "$id": "#/properties/admin/properties/lastname",
+          "type": "string",
+          "title": "The Lastname Schema",
+          "default": "",
+          "examples": [
+            "Nikolov"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "companyname": {
+          "$id": "#/properties/admin/properties/companyname",
+          "type": "object",
+          "title": "The Companyname Schema"
+        },
+        "email": {
+          "$id": "#/properties/admin/properties/email",
+          "type": "string",
+          "title": "The Email Schema",
+          "default": "",
+          "examples": [
+            "pavkatar@gmail.com"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "address1": {
+          "$id": "#/properties/admin/properties/address1",
+          "type": "string",
+          "title": "The Address1 Schema",
+          "default": "",
+          "examples": [
+            "Sofia"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "address2": {
+          "$id": "#/properties/admin/properties/address2",
+          "type": "string",
+          "title": "The Address2 Schema",
+          "default": "",
+          "examples": [
+            "disabled"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "city": {
+          "$id": "#/properties/admin/properties/city",
+          "type": "string",
+          "title": "The City Schema",
+          "default": "",
+          "examples": [
+            "Sofia"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "state": {
+          "$id": "#/properties/admin/properties/state",
+          "type": "string",
+          "title": "The State Schema",
+          "default": "",
+          "examples": [
+            "BG"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "postcode": {
+          "$id": "#/properties/admin/properties/postcode",
+          "type": "string",
+          "title": "The Postcode Schema",
+          "default": "",
+          "examples": [
+            "1000"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "country": {
+          "$id": "#/properties/admin/properties/country",
+          "type": "string",
+          "title": "The Country Schema",
+          "default": "",
+          "examples": [
+            "BG"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "phonenumber": {
+          "$id": "#/properties/admin/properties/phonenumber",
+          "type": "string",
+          "title": "The Phonenumber Schema",
+          "default": "",
+          "examples": [
+            "+359-291-876533499"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "handle": {
+          "$id": "#/properties/admin/properties/handle",
+          "type": "string",
+          "title": "The Handle Schema",
+          "default": "",
+          "examples": [
+            "31342595"
+          ],
+          "pattern": "^(.*)$"
+        }
+      }
+    },
+    "tech": {
+      "$id": "#/properties/tech",
+      "type": "object",
+      "title": "The Tech Schema",
+      "required": [
+        "firstname",
+        "lastname",
+        "companyname",
+        "email",
+        "address1",
+        "address2",
+        "city",
+        "state",
+        "postcode",
+        "country",
+        "phonenumber",
+        "handle"
+      ],
+      "properties": {
+        "firstname": {
+          "$id": "#/properties/tech/properties/firstname",
+          "type": "string",
+          "title": "The Firstname Schema",
+          "default": "",
+          "examples": [
+            "Pavel"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "lastname": {
+          "$id": "#/properties/tech/properties/lastname",
+          "type": "string",
+          "title": "The Lastname Schema",
+          "default": "",
+          "examples": [
+            "Nikolov"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "companyname": {
+          "$id": "#/properties/tech/properties/companyname",
+          "type": "object",
+          "title": "The Companyname Schema"
+        },
+        "email": {
+          "$id": "#/properties/tech/properties/email",
+          "type": "string",
+          "title": "The Email Schema",
+          "default": "",
+          "examples": [
+            "pavkatar@gmail.com"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "address1": {
+          "$id": "#/properties/tech/properties/address1",
+          "type": "string",
+          "title": "The Address1 Schema",
+          "default": "",
+          "examples": [
+            "Sofia"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "address2": {
+          "$id": "#/properties/tech/properties/address2",
+          "type": "string",
+          "title": "The Address2 Schema",
+          "default": "",
+          "examples": [
+            "disabled"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "city": {
+          "$id": "#/properties/tech/properties/city",
+          "type": "string",
+          "title": "The City Schema",
+          "default": "",
+          "examples": [
+            "Sofia"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "state": {
+          "$id": "#/properties/tech/properties/state",
+          "type": "string",
+          "title": "The State Schema",
+          "default": "",
+          "examples": [
+            "BG"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "postcode": {
+          "$id": "#/properties/tech/properties/postcode",
+          "type": "string",
+          "title": "The Postcode Schema",
+          "default": "",
+          "examples": [
+            "1000"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "country": {
+          "$id": "#/properties/tech/properties/country",
+          "type": "string",
+          "title": "The Country Schema",
+          "default": "",
+          "examples": [
+            "BG"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "phonenumber": {
+          "$id": "#/properties/tech/properties/phonenumber",
+          "type": "string",
+          "title": "The Phonenumber Schema",
+          "default": "",
+          "examples": [
+            "+359-291-876533499"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "handle": {
+          "$id": "#/properties/tech/properties/handle",
+          "type": "string",
+          "title": "The Handle Schema",
+          "default": "",
+          "examples": [
+            "31342595"
+          ],
+          "pattern": "^(.*)$"
+        }
+      }
+    },
+    "billing": {
+      "$id": "#/properties/billing",
+      "type": "object",
+      "title": "The Billing Schema",
+      "required": [
+        "firstname",
+        "lastname",
+        "companyname",
+        "email",
+        "address1",
+        "address2",
+        "city",
+        "state",
+        "postcode",
+        "country",
+        "phonenumber",
+        "handle"
+      ],
+      "properties": {
+        "firstname": {
+          "$id": "#/properties/billing/properties/firstname",
+          "type": "string",
+          "title": "The Firstname Schema",
+          "default": "",
+          "examples": [
+            "Pavel"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "lastname": {
+          "$id": "#/properties/billing/properties/lastname",
+          "type": "string",
+          "title": "The Lastname Schema",
+          "default": "",
+          "examples": [
+            "Nikolov"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "companyname": {
+          "$id": "#/properties/billing/properties/companyname",
+          "type": "object",
+          "title": "The Companyname Schema"
+        },
+        "email": {
+          "$id": "#/properties/billing/properties/email",
+          "type": "string",
+          "title": "The Email Schema",
+          "default": "",
+          "examples": [
+            "pavkatar@gmail.com"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "address1": {
+          "$id": "#/properties/billing/properties/address1",
+          "type": "string",
+          "title": "The Address1 Schema",
+          "default": "",
+          "examples": [
+            "Sofia"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "address2": {
+          "$id": "#/properties/billing/properties/address2",
+          "type": "string",
+          "title": "The Address2 Schema",
+          "default": "",
+          "examples": [
+            "disabled"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "city": {
+          "$id": "#/properties/billing/properties/city",
+          "type": "string",
+          "title": "The City Schema",
+          "default": "",
+          "examples": [
+            "Sofia"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "state": {
+          "$id": "#/properties/billing/properties/state",
+          "type": "string",
+          "title": "The State Schema",
+          "default": "",
+          "examples": [
+            "BG"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "postcode": {
+          "$id": "#/properties/billing/properties/postcode",
+          "type": "string",
+          "title": "The Postcode Schema",
+          "default": "",
+          "examples": [
+            "1000"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "country": {
+          "$id": "#/properties/billing/properties/country",
+          "type": "string",
+          "title": "The Country Schema",
+          "default": "",
+          "examples": [
+            "BG"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "phonenumber": {
+          "$id": "#/properties/billing/properties/phonenumber",
+          "type": "string",
+          "title": "The Phonenumber Schema",
+          "default": "",
+          "examples": [
+            "+359-291-876533499"
+          ],
+          "pattern": "^(.*)$"
+        },
+        "handle": {
+          "$id": "#/properties/billing/properties/handle",
+          "type": "string",
+          "title": "The Handle Schema",
+          "default": "",
+          "examples": [
+            "31342595"
+          ],
+          "pattern": "^(.*)$"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "domain": "{{product.option.domain}}",
+  "numyears": "{{order.quantity}}"
+}

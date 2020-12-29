@@ -1,0 +1,4 @@
+{
+    "username": "{{product.option.username}}",
+    "server": "{{product.option.server}}"
+}

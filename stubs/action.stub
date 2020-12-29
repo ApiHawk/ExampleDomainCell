@@ -1,0 +1,20 @@
+<?php
+
+namespace {{namespace}};
+
+use {{rootNamespace}}Misc\Services\AbstractAction;
+
+class {{class}} extends AbstractAction
+{
+    /**
+     * @inheritDoc
+     */
+    function process(array $payload): array
+    {
+        \Log::debug(__CLASS__ . ' called successfully');
+
+        // TODO: Implement process() method.
+        return [];
+    }
+
+}

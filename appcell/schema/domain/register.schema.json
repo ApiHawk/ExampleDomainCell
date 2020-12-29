@@ -1,0 +1,220 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "title": "The Root Schema",
+  "required": [
+    "domain",
+    "ns1",
+    "ns2",
+    "ns3",
+    "ns4",
+    "numyears",
+    "autoRenew",
+    "email",
+    "phonenumber",
+    "country",
+    "firstname",
+    "lastname",
+    "address1",
+    "address2",
+    "city",
+    "postcode",
+    "companyname",
+    "state",
+    "jobtitle"
+  ],
+  "properties": {
+    "domain": {
+      "$id": "#/properties/domain",
+      "type": "string",
+      "title": "The Domain Schema",
+      "default": "",
+      "examples": [
+        "{{product.option.domain}}"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "ns1": {
+      "$id": "#/properties/ns1",
+      "type": "string",
+      "title": "The Ns1 Schema",
+      "default": "",
+      "examples": [
+        "ns1.icnanycast.com"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "ns2": {
+      "$id": "#/properties/ns2",
+      "type": "string",
+      "title": "The Ns2 Schema",
+      "default": "",
+      "examples": [
+        "ns2.icnanycast.com"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "ns3": {
+      "$id": "#/properties/ns3",
+      "type": "string",
+      "title": "The Ns3 Schema",
+      "default": "",
+      "examples": [
+        "{{product.option.ns3}}"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "ns4": {
+      "$id": "#/properties/ns4",
+      "type": "string",
+      "title": "The Ns4 Schema",
+      "default": "",
+      "examples": [
+        "{{product.option.ns4}}"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "numyears": {
+      "$id": "#/properties/numyears",
+      "type": "string",
+      "title": "The Numyears Schema",
+      "default": "",
+      "examples": [
+        "{{order.quantity}}"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "autoRenew": {
+      "$id": "#/properties/autoRenew",
+      "type": "string",
+      "title": "The Autorenew Schema",
+      "default": "",
+      "examples": [
+        "0"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "email": {
+      "$id": "#/properties/email",
+      "type": "string",
+      "title": "The Email Schema",
+      "default": "",
+      "examples": [
+        "{{customer.email}}"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "phonenumber": {
+      "$id": "#/properties/phonenumber",
+      "type": "string",
+      "title": "The Phonenumber Schema",
+      "default": "",
+      "examples": [
+        "{{customer.phone}}"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "country": {
+      "$id": "#/properties/country",
+      "type": "string",
+      "title": "The Country Schema",
+      "default": "",
+      "examples": [
+        "BG"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "firstname": {
+      "$id": "#/properties/firstname",
+      "type": "string",
+      "title": "The Firstname Schema",
+      "default": "",
+      "examples": [
+        "{{customer.firstname}}"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "lastname": {
+      "$id": "#/properties/lastname",
+      "type": "string",
+      "title": "The Lastname Schema",
+      "default": "",
+      "examples": [
+        "{{customer.lastname}}"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "address1": {
+      "$id": "#/properties/address1",
+      "type": "string",
+      "title": "The Address1 Schema",
+      "default": "",
+      "examples": [
+        "{{customer.address}}"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "address2": {
+      "$id": "#/properties/address2",
+      "type": "string",
+      "title": "The Address2 Schema",
+      "default": "",
+      "examples": [
+        ""
+      ],
+      "pattern": "^(.*)$"
+    },
+    "city": {
+      "$id": "#/properties/city",
+      "type": "string",
+      "title": "The City Schema",
+      "default": "",
+      "examples": [
+        "{{customer.city}}"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "postcode": {
+      "$id": "#/properties/postcode",
+      "type": "string",
+      "title": "The Postcode Schema",
+      "default": "",
+      "examples": [
+        "{{customer.postal_code}}"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "companyname": {
+      "$id": "#/properties/companyname",
+      "type": "string",
+      "title": "The Companyname Schema",
+      "default": "",
+      "examples": [
+        "{{customer.company.name}}"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "state": {
+      "$id": "#/properties/state",
+      "type": "string",
+      "title": "The State Schema",
+      "default": "",
+      "examples": [
+        ""
+      ],
+      "pattern": "^(.*)$"
+    },
+    "jobtitle": {
+      "$id": "#/properties/jobtitle",
+      "type": "string",
+      "title": "The Jobtitle Schema",
+      "default": "",
+      "examples": [
+        "manager"
+      ],
+      "pattern": "^(.*)$"
+    }
+  }
+}

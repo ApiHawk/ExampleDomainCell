@@ -1,0 +1,114 @@
+{
+    "plugin": {
+        "ExampleDomain": {
+            "implements": [
+                "https://repository.appcell.io/core/service.schema",
+                "https://repository.appcell.io/core/availability.schema",
+                "https://repository.appcell.io/core/renewable.schema"
+            ],
+            "actions": {
+                "create": [
+                    {
+                        "resource": "Domain",
+                        "action": "create",
+                        "$payload": "https://repository.appcell.io/naskcell/schema/domain/register.payload.json",
+                        "$result": "https://repository.appcell.io/naskcell/schema/domain/domain.result.json"
+                    }
+                ],
+                "fetch": [
+                    {
+                        "resource": "Domain",
+                        "action": "fetch",
+                        "$payload": "https://repository.appcell.io/naskcell/schema/domain/domain.payload.json",
+                        "$result": "https://repository.appcell.io/naskcell/schema/domain/domain.result.json"
+                    }
+                ],
+                "update": [
+                    {
+                        "resource": "Domain",
+                        "action": "update",
+                        "$payload": "https://repository.appcell.io/naskcell/schema/domain/domain.payload.json",
+                        "$result": "https://repository.appcell.io/naskcell/schema/domain/domain.result.json"
+                    }
+                ],
+                "checkAvailability": [
+                    {
+                        "resource": "Domain",
+                        "action": "checkAvailability",
+                        "security": "public",
+                        "$payload": "https://repository.appcell.io/naskcell/schema/domain/checkAvailability.payload.json",
+                        "$result": "https://repository.appcell.io/naskcell/schema/domain/checkAvailability.result.json"
+                    }
+                ],
+                "transfer": [
+                    {
+                        "resource": "Domain",
+                        "action": "transfer",
+                        "$payload": "https://repository.appcell.io/naskcell/schema/domain/transfer.payload.json",
+                        "$result": "https://repository.appcell.io/naskcell/schema/domain/domain.result.json"
+                    }
+                ],
+                "synchronize": [
+                    {
+                        "resource": "Domain",
+                        "action": "synchronize",
+                        "$payload": "https://repository.appcell.io/naskcell/schema/domain/domain.payload.json",
+                        "$postpayload": "https://repository.appcell.io/naskcell/schema/domain/synchronize.postpayload.json"
+                    }
+                ],
+                "renew": [
+                    {
+                        "resource": "Domain",
+                        "$payload": "https://repository.appcell.io/naskcell/schema/domain/renew.payload.json",
+                        "action": "renew"
+                    }
+                ],
+                "getEppCode": [
+                    {
+                        "resource": "Domain",
+                        "$payload": "https://repository.appcell.io/naskcell/schema/domain/domain.payload.json",
+                        "action": "getEppCode",
+                        "postpayload": {
+                            "data": {
+                                "auth_info": "{{result}}"
+                            },
+                            "type": "overwrite"
+                        }
+                    }
+                ],
+                "fetchAll.Contact": [
+                    {
+                        "resource": "Contact",
+                        "action": "fetchAll",
+                        "$payload": "https://repository.appcell.io/resellerclubcell/schema/domain/domain.payload.json",
+                        "$result": "https://repository.appcell.io/naskcell/schema/contact/contact.result.json"
+                    }
+                ],
+                "updateList.Contact": [
+                    {
+                        "resource": "Contact",
+                        "action": "updateList",
+                        "$payload": "https://repository.appcell.io/resellerclubcell/schema/domain/domain.payload.json",
+                        "$result": "https://repository.appcell.io/naskcell/schema/contact/contact.result.json"
+                    }
+                ],
+                "fetchAll.NS": [
+                    {
+                        "resource": "NS",
+                        "action": "fetchAll",
+                        "$payload": "https://repository.appcell.io/resellerclubcell/schema/domain/domain.payload.json",
+                        "$result": "https://repository.appcell.io/naskcell/schema/contact/contact.result.json"
+                    }
+                ],
+                "updateList.NS": [
+                    {
+                        "resource": "NS",
+                        "action": "updateList",
+                        "$payload": "https://repository.appcell.io/resellerclubcell/schema/domain/domain.payload.json",
+                        "$result": "https://repository.appcell.io/naskcell/schema/contact/contact.result.json"
+                    }
+                ]
+            }
+        }
+    }
+}

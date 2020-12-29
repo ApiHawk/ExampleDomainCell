@@ -1,0 +1,62 @@
+{
+  "registrant": {
+    "firstname": "Pavel",
+    "lastname": "Nikolov",
+    "companyname": {
+    },
+    "email": "pavkatar@gmail.com",
+    "address1": "Sofia",
+    "address2": "disabled",
+    "city": "Sofia",
+    "state": "BG",
+    "postcode": "1000",
+    "country": "BG",
+    "phonenumber": "+359-291-876533499",
+    "handle": "31342595"
+  },
+  "admin": {
+    "firstname": "Pavel",
+    "lastname": "Nikolov",
+    "companyname": {
+    },
+    "email": "pavkatar@gmail.com",
+    "address1": "Sofia",
+    "address2": "disabled",
+    "city": "Sofia",
+    "state": "BG",
+    "postcode": "1000",
+    "country": "BG",
+    "phonenumber": "+359-291-876533499",
+    "handle": "31342595"
+  },
+  "tech": {
+    "firstname": "Pavel",
+    "lastname": "Nikolov",
+    "companyname": {
+    },
+    "email": "pavkatar@gmail.com",
+    "address1": "Sofia",
+    "address2": "disabled",
+    "city": "Sofia",
+    "state": "BG",
+    "postcode": "1000",
+    "country": "BG",
+    "phonenumber": "+359-291-876533499",
+    "handle": "31342595"
+  },
+  "billing": {
+    "firstname": "Pavel",
+    "lastname": "Nikolov",
+    "companyname": {
+    },
+    "email": "pavkatar@gmail.com",
+    "address1": "Sofia",
+    "address2": "disabled",
+    "city": "Sofia",
+    "state": "BG",
+    "postcode": "1000",
+    "country": "BG",
+    "phonenumber": "+359-291-876533499",
+    "handle": "31342595"
+  }
+}

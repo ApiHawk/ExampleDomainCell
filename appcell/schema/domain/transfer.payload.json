@@ -1,0 +1,22 @@
+{
+  "domain": "{{product.option.domain}}",
+  "epp_code": "{{product.option.epp_code}}",
+  "ns1": "ns1.icnanycast.com",
+  "ns2": "ns2.icnanycast.com",
+  "ns3": "{{product.option.ns3}}",
+  "ns4": "{{product.option.ns4}}",
+  "numyears": "{{order.quantity}}",
+  "autoRenew": "0",
+  "email": "{{customer.email}}",
+  "phone": "{{customer.phone}}",
+  "country": "{{customer.country}}",
+  "firstname": "{{customer.firstname}}",
+  "lastname": "{{customer.lastname}}",
+  "address1": "{{customer.address}}",
+  "address2": "",
+  "city": "{{customer.city}}",
+  "postcode": "{{customer.postal_code}}",
+  "companyname": "{{customer.company.name}}",
+  "state": "",
+  "jobtitle": "manager"
+}

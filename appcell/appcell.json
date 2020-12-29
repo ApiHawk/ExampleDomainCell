@@ -1,0 +1,25 @@
+{
+    "name": "exampleDomainCell",
+    "description": "Example Domain Registration module",
+    "license": "BSD-3-Clause",
+    "minimum-stability": "dev",
+    "type": "plugin",
+    "support": {
+        "email": "thehawks@apihawk.com"
+    },
+    "homepage": "https://www.apihawk.com/",
+    "prefer-stable": true,
+    "config": [],
+    "require": {
+        "appcell": ">=1",
+        "ui": "^1.0",
+        "scope": [
+            "customer_product",
+            "customer",
+            "email",
+            "order",
+            "company",
+            "catalog_product"
+        ]
+    }
+}

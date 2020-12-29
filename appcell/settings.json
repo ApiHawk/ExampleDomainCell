@@ -1,0 +1,76 @@
+{
+    "settings": {
+        "username": "",
+        "password": ""
+    },
+    "fields": [],
+    "options": [
+        {
+            "name": "Domain",
+            "key": "domain",
+            "type": "text",
+            "value_type": "text",
+            "required": true,
+            "provider": "system",
+            "identifier": true
+        },
+        {
+            "name": "NS1",
+            "key": "ns1",
+            "type": "text",
+            "value_type": "text",
+            "required": false,
+            "provider": "user"
+        },
+        {
+            "name": "NS2",
+            "key": "ns2",
+            "type": "text",
+            "value_type": "text",
+            "required": false,
+            "provider": "user"
+        },
+        {
+            "name": "NS3",
+            "key": "ns3",
+            "type": "text",
+            "value_type": "text",
+            "required": false,
+            "provider": "user"
+        },
+        {
+            "name": "NS4",
+            "key": "ns4",
+            "type": "text",
+            "value_type": "text",
+            "required": false,
+            "provider": "user"
+        },
+        {
+            "name": "Theft Protection",
+            "key": "theft_protection",
+            "type": "functional",
+            "value_type": "on/off",
+            "required": false,
+            "provider": "user",
+            "default": "on"
+        },
+        {
+            "name": "Privacy Protection",
+            "key": "privacy_protection",
+            "type": "functional",
+            "value_type": "on/off",
+            "required": false,
+            "provider": "user",
+            "default": "on"
+        },
+        {
+            "name": "Transfer Code",
+            "key": "auth_info",
+            "type": "text",
+            "value_type": "text",
+            "required": true,
+            "provider": "interface"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "email": "{{customer.email}}",
+    "firstname": "{{customer.firstname}}",
+    "lastname": "{{customer.lastname}}",
+    "domain": "{{product.option.domain}}",
+    "phone": "{{customer.phone}}",
+    "address": "{{customer.address}}",
+    "city": "{{customer.city}}",
+    "postcode": "{{customer.postal_code}}",
+    "companyname": "{{customer.company.organization}}"
+}

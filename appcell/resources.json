@@ -1,0 +1,46 @@
+{
+    "resources": {
+        "Domain": {
+            "identifier": "domain",
+            "$payload": "https://repository.appcell.io/naskcell/schema/domain/register.schema.json",
+            "$result": "https://repository.appcell.io/naskcell/schema/domain/domain.schema.json",
+            "rest": [
+                "create",
+                "fetch",
+                "update"
+            ],
+            "actions": {
+                "checkAvailability": {
+                    "$payload": "https://repository.appcell.io/naskcell/schema/domain/checkAvailability.payload.schema.json",
+                    "$result": "https://repository.appcell.io/naskcell/schema/domain/checkAvailability.result.schema.json"
+                },
+                "getNameServers": [],
+                "updateNameServers": [],
+                "getEppCode": {
+                    "identifier": "domain",
+                    "$payload": "https://repository.appcell.io/naskcell/schema/domain/domain.payload.schema.json",
+                    "$result": "https://repository.appcell.io/naskcell/schema/domain/eppcode.result.schema.json"
+                },
+                "synchronize": []
+            }
+        },
+        "NS": {
+            "identifier": "domain",
+            "$payload": "https://repository.appcell.io/naskcell/schema/domain/domain.schema.json",
+            "$result": "https://repository.appcell.io/naskcell/schema/ns/ns.schema.json",
+            "rest": [
+                "fetchAll",
+                "updateList"
+            ]
+        },
+        "Contact": {
+            "identifier": "contact_id",
+            "$payload": "https://repository.appcell.io/naskcell/schema/domain/domain.payload.schema.json",
+            "$result": "https://repository.appcell.io/naskcell/schema/contact/contact.result.schema.json",
+            "rest": [
+                "fetchAll",
+                "updateList"
+            ]
+        }
+    }
+}

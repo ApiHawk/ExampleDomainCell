@@ -1,0 +1,14 @@
+{
+    "name": "applicationCell",
+    "description": "AppCell Application Cell",
+    "license": "BSD-3-Clause",
+    "minimum-stability": "dev",
+    "type": "plugin",
+    "support": {
+        "email": "thehawks@apihawk.com"
+    },
+    "homepage": "https://apihawk.com",
+    "prefer-stable": true,
+    "config": [],
+    "require": {}
+}
